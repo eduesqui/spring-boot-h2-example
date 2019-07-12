@@ -11,8 +11,8 @@ import com.eduesqui.rest.model.entitys.Task;
 @Service
 public class TaskService implements ITaskService {
 	
-	
-	private @Autowired ITaskDao taskDao;
+	 @Autowired
+	private ITaskDao taskDao;
 	
 	/**
 	 * Method to get all the task

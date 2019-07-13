@@ -1,8 +1,8 @@
-package com.eduesqui.rest.model.service;
+package com.eduesqui.model.service;
 
 import java.util.List;
 
-import com.eduesqui.rest.model.entitys.Task;
+import com.eduesqui.model.entitys.Task;
 
 public interface ITaskService {
 

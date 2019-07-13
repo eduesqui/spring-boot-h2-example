@@ -1,4 +1,4 @@
-package com.eduesqui.rest.model.entitys;
+package com.eduesqui.model.entitys;
 
 import java.io.Serializable;
 import java.util.Date;

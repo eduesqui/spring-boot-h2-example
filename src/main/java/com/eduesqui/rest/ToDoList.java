@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.eduesqui.rest.model.entitys.Task;
-import com.eduesqui.rest.model.service.ITaskService;
+import com.eduesqui.model.entitys.Task;
+import com.eduesqui.model.service.ITaskService;
 
 @RestController
 @RequestMapping (value="todolist")

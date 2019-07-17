@@ -1,5 +1,6 @@
 package com.eduesqui.model.service;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,5 +21,23 @@ public class TaskService implements ITaskService {
 	 */
 	public List<Task> getTask() {
 		return (List<Task>) taskDao.findAll();
+	}
+
+	@Override
+	public Task addTask(Task task) {
+		task.setCreationDate(new Date());
+		task.setStatus(0);	
+		return taskDao.save(task);
+	}
+
+	@Override
+	public void removeTask(Long id) {
+		taskDao.deleteById(id);
+	}
+
+	@Override
+	public void updateTask() {
+		// TODO Auto-generated method stub
+		
 	}
 }

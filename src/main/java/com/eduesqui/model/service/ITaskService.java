@@ -8,5 +8,9 @@ public interface ITaskService {
 
 	
 	public List<Task> getTask();
+	public Task addTask(Task task);
+	public void removeTask(Long id);
+	public void updateTask();
+	
 	
 }

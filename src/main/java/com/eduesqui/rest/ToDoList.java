@@ -26,8 +26,10 @@ public class ToDoList {
 	}
 	
 	@PostMapping(value="tasks")
-	public Task getAddTask(@RequestBody Task task)  {
+	public Task addTask(@RequestBody Task task)  {
 		return taskService.addTask(task);
 	}
+	
+	
 	
 }

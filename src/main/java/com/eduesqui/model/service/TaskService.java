@@ -36,8 +36,7 @@ public class TaskService implements ITaskService {
 	}
 
 	@Override
-	public void updateTask() {
-		// TODO Auto-generated method stub
-		
+	public Task updateTask(Task task) {	
+		return taskDao.save(task);
 	}
 }

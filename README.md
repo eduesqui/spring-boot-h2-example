@@ -1,6 +1,6 @@
-#Ejemplo de Uso Spring Boot + H2
+# Ejemplo de Uso Spring Boot + H2
 
-#Descripción
+# Descripción
 H2 es una base de datos temporal usada para agilizar el proceso de desarrollo. En este ejemplo
 se muestra su facilidad de uso.
 

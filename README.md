@@ -17,4 +17,4 @@ se muestra su facilidad de uso.
 Posicionarse en la carpeta raiz y ejecutar `mvn clean install`
 
 ## Modo de uso
-El el siguiente [post](https://medium.com/eduesqui/como-utilizar-la-base-de-datos-h2-en-spring-boot-db1241d1f7f3) el funcionamiento y uso del proyecto
+El el siguiente [post](https://funcionaenmimaquina.com/spring-boot-tutorial-para-principiantes/) el funcionamiento y uso del proyecto
